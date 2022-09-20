@@ -132,6 +132,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    padding-bottom: 1.5em;
 }
 
 .main .code a{
