@@ -1,0 +1,148 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.main{
+    display:flex;
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0em;
+}
+
+.main .back{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+.main .back a{
+    text-decoration: none;
+    color: #000;
+}
+
+.main .back i{
+    font-size: 2em;
+}
+
+.main h2{
+    width: 100%;
+    text-align:center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+}
+
+.main p{
+    width: 100%;
+    text-align:center;
+    margin: 1em 0em;
+    font-size: 1.2em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.searchbox{
+    border: 1px solid #7a7a7a;
+    border-radius: 4px;
+    padding: 0.2em 0.2em 0.3em 0.5em;
+    margin-top: 1em;
+}
+
+.searchbox input{
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0.7em;
+}
+
+.searchbox i{
+    position: relative;
+    top:2px;
+    font-size: 1.2em;
+    padding: 0.7em;
+}
+
+.main .price-filter{
+    
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.main .price-filter label{
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    text-align:center;
+    padding: 0.5em;
+    background-color: #ddd;
+    width: 200px;
+    margin: 0.2em 0em;
+    font-size: 1em;
+    border-radius: 4px;
+    border: 1px solid #f7df1e;;
+}
+
+.main .objects-container{
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 1.5em 0em 0em 0em;
+    height: 465px;
+}
+
+.main .objects-container p{
+    margin: 0;
+}
+
+.main .objects-container .card{
+    
+    margin: 0.5em 0em;
+    text-align:left;
+    width: 200px;
+    padding: 0.7em;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 4px;
+    background-color:#E4E9F7;
+}
+
+.main .objects-container .card h3{
+    font-size: 1em;
+}
+
+.main .objects-container .card h4{
+    font-size: 0.9em;
+}
+
+.main .continue{
+    width: 100%;
+    text-align:center;
+}
+
+.main .continue i{
+    font-size: 1.5em;
+}
+
+.main .code{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main .code a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    color: #000;
+}
+
+.main .code a i{
+    font-size: 1.2em;
+    position: relative;
+    top: 3px;
+}
