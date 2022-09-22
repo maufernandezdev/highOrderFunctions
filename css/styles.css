@@ -25,13 +25,15 @@
     width: 100%;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 2em;
+    height: auto;
 }
 
 .main .main__links a{
     text-decoration: none;
     color: #000;
-    margin: 1em;
+    margin: 0.5em;
     background-color: #f7df1e;
     font-family: 'Raleway', sans-serif;
     padding: 1em;

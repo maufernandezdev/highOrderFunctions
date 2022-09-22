@@ -1,32 +1,3 @@
-const Courses = 
-[
-    {
-        id:1,
-        name:"Introduction to programming",
-        price:75,
-    },
-    {
-        id:2,
-        name:"Web development",
-        price:100,
-    },
-    {
-        id:3,
-        name:"JavaScript",
-        price: 100,
-    },
-    {
-        id:4,
-        name:"React Js",
-        price:120,
-    },
-    {
-        id:5,
-        name:"Node Js",
-        price:210,
-    },
-]
-
 const loadObjects = (Courses) =>
 {
     let container = document.querySelector('.objects-container');
@@ -45,7 +16,8 @@ const loadObjects = (Courses) =>
             <div class="card">
                 <h3>id: ${course.id}</h3>
                 <h4>name: ${course.name}</h4>
-                <h4>price: ${course.price}</h4>
+                <h4>duration: ${course.duration}</h4>
+                <h4>price: $${course.price}</h4>
             </div>
         `;
     }

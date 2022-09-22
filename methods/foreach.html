@@ -8,33 +8,22 @@
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <!----======== CSS ======== -->
     <link rel="stylesheet" href="../css/filter.css">
+    <link rel="stylesheet" href="../css/foreach.css">
     <!----======== Google fonts ======== -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <title>Filter</title>
+    <title>ForEach</title>
 </head>
 <body>
     <section class="main">
         <div class="back">
             <a href="https://high-order-functions.vercel.app/"><i class='bx bx-chevron-left'></i></a>
         </div>
-        <h2>Filter</h2>
-        <p>Course filter by price</p>
-        <div class="price-filter">
-            <label id="one">Until $100</label>
-            <label id="two">$100 to $200</label>
-            <label id="three">Greater than $200</label>
-            <label id="all">All</label>
-        </div>
+        <h2>ForEach</h2>
+        <p>Loading courses using ForEach</p> 
+        <div class="objects-container" id="cards-container"></div>
         
-        <div class="objects-container">
-            <p>Results</p>
-        </div>
-        <!-- <div class="searchbox">
-            <input type="text" placeholder="Buscar" id="search-value">
-            <i class='bx bx-search search'></i> 
-        </div> -->
         <div class="continue">
             <i class='bx bx-chevron-down' ></i>
         </div>
@@ -42,6 +31,7 @@
             <a href="https://github.com/maufernandezdev/highOrderFunctions" target="_blank">Want to see the code? <i class='bx bxl-github'></i></a>
         </div>
     </section>
-    <script src="../js/filter.js"></script>
+    <script src="../js/data.js"></script>
+    <script src="../js/foreach.js"></script>
 </body>
 </html>
