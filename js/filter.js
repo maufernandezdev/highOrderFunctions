@@ -26,12 +26,6 @@ const loadObjects = (Courses) =>
 
 loadObjects(Courses);
 
-// let search = document.querySelector('.search');
-// search.addEventListener('click',()=>{
-//     let input = document.querySelector('#search-value').value;
-//     let product = Courses.filter(element => element.name.toLowerCase().includes(input));
-//     console.log('prod: ', product);
-// })
 let until = document.querySelector('#one');
 let oneHundredToTwoHundred = document.querySelector('#two');
 let twoHundred = document.querySelector('#three');

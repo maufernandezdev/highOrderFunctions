@@ -4,13 +4,13 @@ const Courses =
         id:1,
         name:"Introduction to programming",
         duration:20,
-        price:75,
+        price:175,
     },
     {
         id:2,
         name:"Web development",
         duration:40,
-        price:100,
+        price:75,
     },
     {
         id:3,

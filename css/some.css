@@ -1,0 +1,40 @@
+.main{
+    
+    justify-content: space-between;
+    flex-direction: column;
+}
+.main .objects-container{
+    height: auto;
+    padding: 1em 0em;
+}
+.main .objects-container .subtitle{
+    margin-bottom: 1em;
+}
+
+.main .objects-container #result{
+
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    text-align:center;
+    margin-top: 1em;
+    font-size: 1.2em;
+    font-weight: 700;
+    height: 25px;
+}
+
+.main .footer{
+    width: 100%;
+}
+
+.main .footer .code a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    color: #000;
+}
+
+.main .footer .code a i{
+    font-size: 1.2em;
+    position: relative;
+    top: 3px;
+}
