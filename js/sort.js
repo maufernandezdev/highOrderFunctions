@@ -74,9 +74,7 @@ const loadObjects = (Courses) =>
     {
         div.innerHTML += `
             <div class="card">
-                <h3>id: ${course.id}</h3>
                 <h4>name: ${course.name}</h4>
-                <h4>duration: ${course.duration}</h4>
                 <h4>price: $${course.price}</h4>
             </div>
         `;

@@ -149,3 +149,22 @@
     position: relative;
     top: 3px;
 }
+
+.main .footer{
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+@media only screen and (min-width: 1040px)
+{   
+    .main .price-filter,
+    .main .sort{
+        
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        max-width: 250px;
+    }
+}

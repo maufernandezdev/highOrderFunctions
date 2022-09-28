@@ -58,3 +58,28 @@
 .main .main__links a i{
     font-size: 1.2em;
 }
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align:center;
+    padding: 1.5em;
+}
+
+footer p{
+    font-family: 'Raleway', sans-serif;
+}
+
+footer p a{
+    text-decoration: none;
+    color: #0969da;
+}
+
+footer p a i{
+    position: relative;
+    color:#000;
+    top: 4px;
+    left: 4px;
+    font-size: 1.5em;
+}

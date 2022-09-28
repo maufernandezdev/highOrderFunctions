@@ -6,6 +6,10 @@
     margin: 1em 0em 0em 0em;
 }
 
+.main .subtitle{
+    margin-bottom: 1em;
+}
+
 .main label{
     font-family: 'Raleway', sans-serif;
     margin: 1em 0em;

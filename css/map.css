@@ -13,3 +13,7 @@
 .main .objects-container #mapCard h4{
   text-align:center;
 }
+
+.main .footer{
+    margin-top: 1em;
+}
