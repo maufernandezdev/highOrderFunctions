@@ -4,3 +4,7 @@
 .main .footer{
     margin-top: 1em;
 }
+
+footer{
+    margin: 0;
+}

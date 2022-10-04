@@ -1,6 +1,6 @@
 .main{
     
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
 }
 .main .objects-container{
@@ -37,4 +37,8 @@
     font-size: 1.2em;
     position: relative;
     top: 3px;
+}
+
+footer{
+    margin: 0;
 }
