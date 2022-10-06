@@ -1,3 +1,7 @@
+.main {
+    flex-direction: column;
+}
+    
 .main .objects-container{
     height: auto;
 }
